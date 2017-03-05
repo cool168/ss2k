@@ -4,7 +4,7 @@ FROM ubuntu:16.04
 # Switches deb source to China mirror
 #RUN sed -i.bak 's/archive/cn\.archive/' /etc/apt/sources.list
 
-RUN apt-get install -y --no-install-recommends apg
+RUN apt-get update && apt-get install -y --no-install-recommends apg
 	
 
 # Deploys files
