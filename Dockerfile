@@ -22,7 +22,7 @@ COPY ./packages/*.deb /app/
 COPY ./*.sh /app/
 RUN chmod +x /app/*.sh
 
-#RUN	dpkg -i /app/libmbedcrypto0_*.deb
+RUN	dpkg -i /app/libmbedcrypto0_*.deb
 RUN	dpkg -i /app/shadowsocks-libev_*.deb
 RUN	rm /etc/init.d/shadowsocks-libev
 
