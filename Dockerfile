@@ -5,7 +5,7 @@ FROM ubuntu:16.04
 #RUN sed -i.bak 's/archive/cn\.archive/' /etc/apt/sources.list
 
 RUN apt-get update && \
-	apt-get install -y --no-install-recommends apg init-system-helpers libtool openssl libssl-dev zlib1g-dev xmlto asciidoc libpcre3 libpcre3-dev
+	apt-get install -y --no-install-recommends apg
 	
 
 # Deploys files
