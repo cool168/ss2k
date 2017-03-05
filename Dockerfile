@@ -5,7 +5,7 @@ FROM ubuntu:16.04
 RUN sed -i.bak 's/archive/cn\.archive/' /etc/apt/sources.list
 
 # Deploys files
-# Deploys files
+
 RUN mkdir -p /app
 RUN mkdir -p /app/kcp
 RUN chmod +x /app
