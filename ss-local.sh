@@ -4,7 +4,7 @@ echo ${SS_LOCAL_PORT=1080}
 
 echo ${SS_SERVER_PORT=8989}
 
-echo ${SS_SERVER_PWD='aes-256-cfb'}
+echo ${SS_SERVER_PWD='njkhmuDKxMwjGZw3stLDNQii'}
 
 echo ${SS_SERVER_METHOD='aes-256-cfb'}
 
