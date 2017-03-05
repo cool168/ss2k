@@ -1,6 +1,8 @@
 
 #!/bin/sh
 
+echo ${ENABLE_CFGFILE='no'}
+
 echo ${SS_SERVER_PWD='njkhmuDKxMwjGZw3stLDNQii'}
 
 echo ${SS_SERVER_PORT=8989}
